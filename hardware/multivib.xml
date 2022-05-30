@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GitHub\multivib\hardware\multivib.kicad_sch</source>
+    <date>30.05.2022 11:09:15</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Мультивибратор</title>
+        <company/>
+        <rev/>
+        <date>2022-05-18</date>
+        <source>multivib.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Нагаев"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Coefficient">C0G</field>
+        <field name="Voltage">50v</field>
+        <field name="lcsc">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Coefficient" value="C0G"/>
+      <property name="Voltage" value="50v"/>
+      <property name="lcsc" value="C1790"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ecbcf96-8279-46ee-b620-5a9d67ceb296</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Coefficient">C0G</field>
+        <field name="Voltage">50v</field>
+        <field name="lcsc">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Coefficient" value="C0G"/>
+      <property name="Voltage" value="50v"/>
+      <property name="lcsc" value="C1790"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db56c689-d700-41c1-a106-e6ec39909785</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Coefficient">X7R</field>
+        <field name="Voltage">50v</field>
+        <field name="lcsc">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Coefficient" value="X7R"/>
+      <property name="Voltage" value="50v"/>
+      <property name="lcsc" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c30fbdaa-f491-41c9-a36b-30b6faeb36a2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Coefficient">X7R</field>
+        <field name="Voltage">50v</field>
+        <field name="lcsc">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Coefficient" value="X7R"/>
+      <property name="Voltage" value="50v"/>
+      <property name="lcsc" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83b8d818-625a-4dc6-aaf8-2ef71bc75d59</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="chipdip">9000414318</field>
+        <field name="lcsc">C2297</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="chipdip" value="9000414318"/>
+      <property name="lcsc" value="C2297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41587d50-94c6-41e3-baad-0685ff9b6940</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c0b89e-45fc-4c20-b824-badbed9aa764</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38982b0a-458e-40f6-9c9e-3ae02df83c97</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>787a378d-ecce-4112-af45-52cf13207811</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe4f657-a017-4d41-9ec1-b14b8c6efa6b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>KLS2-301-5.00-02P-2S</value>
+      <footprint>MAS_Package_nostd:KLS2-301-5.00-02P-2S</footprint>
+      <datasheet>https://static.chipdip.ru/lib/507/DOC001507148.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C699495</field>
+      </fields>
+      <libsource lib="MAS_Connectors" part="KLS2-301-5.00-02P-2S" description="Terminal block connector"/>
+      <property name="lcsc" value="C699495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eb8d7f4-6d58-4e3b-a9ab-e8adbf54e369</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>KLS2-301-5.00-02P-2S</value>
+      <footprint>MAS_Package_nostd:KLS2-301-5.00-02P-2S</footprint>
+      <datasheet>https://static.chipdip.ru/lib/507/DOC001507148.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C699495</field>
+      </fields>
+      <libsource lib="MAS_Connectors" part="KLS2-301-5.00-02P-2S" description="Terminal block connector"/>
+      <property name="lcsc" value="C699495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54c63a23-ac40-400a-bc0b-4e76dc830863</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>KLS2-301-5.00-02P-2S</value>
+      <footprint>MAS_Package_nostd:KLS2-301-5.00-02P-2S</footprint>
+      <datasheet>https://static.chipdip.ru/lib/507/DOC001507148.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C699495</field>
+      </fields>
+      <libsource lib="MAS_Connectors" part="KLS2-301-5.00-02P-2S" description="Terminal block connector"/>
+      <property name="lcsc" value="C699495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b2a877e-88cc-4f67-ba50-119df15dc791</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C85078</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="lcsc" value="C85078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>684fe4c8-94bf-4a56-a20f-97a2c81b1b85</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C85078</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="lcsc" value="C85078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>641dca05-cca9-4785-9aa7-582c4a365207</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="lcsc">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="lcsc" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f20bf85-057c-405a-b282-9c074c49b31c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Coefficient">1%</field>
+        <field name="lcsc">C17560</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Coefficient" value="1%"/>
+      <property name="lcsc" value="C17560"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda7c502-a1be-4527-a9b3-b9cf47fa9b0b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Coefficient">1%</field>
+        <field name="lcsc">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Coefficient" value="1%"/>
+      <property name="lcsc" value="C17673"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c86a336d-9d45-470c-a6cd-c4519f264706</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Coefficient">1%</field>
+        <field name="lcsc">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Coefficient" value="1%"/>
+      <property name="lcsc" value="C17673"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f293a7bd-e1f2-48b4-930a-8b2bad5c9886</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Coefficient">1%</field>
+        <field name="lcsc">C17560</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Coefficient" value="1%"/>
+      <property name="lcsc" value="C17560"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dea84930-8ee9-4445-beb9-b5b2b7f0b208</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Coefficient">1%</field>
+        <field name="lcsc">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Coefficient" value="1%"/>
+      <property name="lcsc" value="C17673"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multivib.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9987d329-d4e9-4f04-8a4d-e69c039a4a78</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAS_Connectors" part="KLS2-301-5.00-02P-2S">
+      <description>Terminal block connector</description>
+      <docs>https://static.chipdip.ru/lib/507/DOC001507148.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KLS2-301-5.00-02P-2S</field>
+        <field name="Footprint">MAS_Package_nostd:KLS2-301-5.00-02P-2S</field>
+        <field name="Datasheet">https://static.chipdip.ru/lib/507/DOC001507148.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MAS_Connectors">
+      <uri>C:/GitHub/KiCadLibrary/MAS_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/out1">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/out2">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

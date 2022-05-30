@@ -1,0 +1,24 @@
+﻿.~*
+_autosave-*
+*/#auto_saved_files#
+*/*-backups/*
+hardware/fp-info-cache
+hardware/replicate_layout.log
+
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+*.kicad_prl
+*.kicad_pro
+!main.kicad_pro
+
+# kicad5
+#sym-lib-table
+#*.kicad_pcb-bak
+#*.sch-bak
+#*.sch-bak
+#*-cache.lib
+#*-rescue.dcm
+#*-rescue.lib
+#*.bck
+#*.bak
