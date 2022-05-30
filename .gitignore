@@ -10,7 +10,7 @@ hardware/replicate_layout.log
 
 *.kicad_prl
 *.kicad_pro
-!main.kicad_pro
+!multivib.kicad_pro
 
 # kicad5
 #sym-lib-table
